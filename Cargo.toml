@@ -1,0 +1,12 @@
+[package]
+name = "bela-sys"
+version = "0.1.0"
+authors = ["Paul Adenot <paul@paul.cx>"]
+description = "Bela platform rust bindings"
+repository = "https://github.com/padenot/bela-sys"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+categories = ["multimedia::audio", "hardware-support"]
+
+[dependencies]
+libc = "0.2"
