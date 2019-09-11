@@ -12,7 +12,7 @@ then
   host=`uname`
   if [ "$host" = "Darwin" ]; then
     PACKAGE="arm-bela-linux-gnueabihf.zip"
-    curl -o $PACKAGE https://bela.io/downloads/$PACKAGE
+    curl -o $PACKAGE http://files.bela.io/gcc/$PACKAGE
     unzip $PACKAGE
     rm $PACKAGE
   elif [ "$host" = "Linux" ]; then
