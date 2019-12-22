@@ -1,3 +1,8 @@
 /target
 **/*.rs.bk
 Cargo.lock
+
+# Build dependencies
+lib/
+include/
+arm-bela-linux-gnueabihf/
