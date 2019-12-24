@@ -9,7 +9,7 @@ Install the right tool chain for the Beaglebone black:
 
 ```sh
 rustup target add armv7-unknown-linux-gnueabihf
-rustup toolchain install armv7-unknown-linux-gnueabihf
+rustup toolchain install stable-armv7-unknown-linux-gnueabihf
 ```
 
 With a bela board plugged in and accessible at `bela.local`, run:
