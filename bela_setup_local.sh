@@ -25,17 +25,15 @@ then
     echo $'[target.armv7-unknown-linux-gnueabihf]\nlinker =  "arm-linux-gnueabihf-gcc"\n' > .cargo/config
   fi
 
-
+  export PATH=$PATH:`pwd`/$DIRECTORY/bin
   scp -r root@$BELA:/root/Bela/include .
   scp -r root@$BELA:/root/Bela/lib .
   scp root@bela.local:/usr/local/lib/libprussdrv.so lib
   scp root@bela.local:/usr/local/lib/libseasocks.so lib
-  scp root@bela.local:/usr/local/lib/libseasocks.so.1.4.2 lib
+  scp root@bela.local:/usr/local/lib/libseasocks.so.1.4.3 lib
   scp root@bela.local:/usr/lib/arm-linux-gnueabihf/libasound.so.2 lib/libasound.so
   scp root@bela.local:/usr/lib/libNE10.so.10 lib/libNE10.so
   scp root@bela.local:/usr/xenomai/lib/libmodechk.so lib
   scp root@bela.local:/usr/xenomai/lib/libcobalt.so lib
   scp root@bela.local:/lib/arm-linux-gnueabihf/librt.so.1 lib
 fi
-
-export PATH=$PATH:`pwd`/$DIRECTORY/bin

@@ -6,3 +6,5 @@ Cargo.lock
 lib/
 include/
 arm-bela-linux-gnueabihf/
+
+__MACOSX
