@@ -3,6 +3,8 @@
 Crude bindings for the [Bela](https://bela.io) platform, to cross-compile from a
 Linux or OSX host.
 
+Higher level, more ergonomic and safe bindings are available in [bela-rs](https://github.com/andrewcsmith/bela-rs), that can use this crate (but see the readme there, there are various options).
+
 # Setup
 
 Install the right tool chain for the Beaglebone black:
