@@ -28,8 +28,7 @@ then
   scp -r root@$BELA:/root/Bela/include .
   scp -r root@$BELA:/root/Bela/lib .
   scp root@$BELA:/usr/local/lib/libprussdrv.so lib
-  scp root@$BELA:/usr/local/lib/libseasocks.so lib
-  scp root@$BELA:/usr/local/lib/libseasocks.so.1.4.3 lib
+  scp root@$BELA:/usr/local/lib/libseasocks.so* lib
   scp root@$BELA:/usr/lib/arm-linux-gnueabihf/libasound.so.2 lib/libasound.so
   scp root@$BELA:/usr/lib/libNE10.so.10 lib/libNE10.so
   scp root@$BELA:/usr/xenomai/lib/libmodechk.so lib
